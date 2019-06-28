@@ -1,0 +1,1 @@
+<view class="content"><image class="logo" src="/static/logo.png"></image><view><text class="title">{{title}}</text></view><block wx:for="{{socketMessage}}" wx:for-item="message" wx:for-index="index" wx:key="index"><view><text>{{message+"---"+index}}</text></view></block></view>

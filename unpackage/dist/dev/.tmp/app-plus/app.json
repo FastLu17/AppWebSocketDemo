@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/index/login",
+    "pages/index/index",
+    "pages/index/person",
+    "pages/index/message"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "",
+    "navigationBarBackgroundColor": "#169BD5",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#169BD5",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/person",
+        "iconPath": "static/images/p.png",
+        "selectedIconPath": "static/images/p1.png",
+        "text": "个人中心"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/images/p.png",
+        "selectedIconPath": "static/images/p1.png",
+        "text": "首页"
+      }
+    ]
+  },
+  "nvueCompiler": "weex",
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "WebSocketDemo",
+  "compilerVersion": "2.0.1",
+  "usingComponents": {}
+}

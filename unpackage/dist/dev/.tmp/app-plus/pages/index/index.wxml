@@ -1,0 +1,1 @@
+<view class="content"><image class="logo" src="/static/logo.png"></image><view><button data-event-opts="{{[['tap',[['setStorage',['$event']]]]]}}" bindtap="__e">设置缓存的UserId</button><button data-event-opts="{{[['tap',[['login',['$event']]]]]}}" bindtap="__e">进行登录操作</button><button data-event-opts="{{[['tap',[['update',['$event']]]]]}}" bindtap="__e">进行改密操作</button></view></view>
